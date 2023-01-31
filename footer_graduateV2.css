@@ -1,0 +1,158 @@
+/* .body {
+  margin-top: 1em ; margin-left: 7em; margin-right: 7em;
+  font-family: Arial, Helvetica, sans-serif;
+} */
+
+
+/* footer details  */
+/* footer details  */
+.footer-grad {
+  display: flex;
+  flex-flow: row wrap;
+  padding: 30px 30px 20px 30px;
+  color: #161515;
+  background-color: rgb(238, 238, 238);
+  border-top: 1px solid #e5e5e5; ;
+}
+
+.footer-grad > * {
+  flex:  1 100%;
+}
+
+.footer-grad__addr {
+  margin-right: 1.25em;
+  margin-bottom: 2em;
+}
+
+.footer-grad__logo {
+  font-family: Arial, Helvetica, sans-serif, cursive;
+  font-weight: 400;
+  /* text-transform: lowercase; */
+  font-size: 1.5rem;  flex:  1 100%;
+}
+
+.h2-grad {
+  margin-top: 1.3em;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+
+.footer-grad__addr__h2-grad {
+  margin-top: 1.3em;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.nav-grad__title {
+  font-weight: 400;
+  font-size: 15px;
+}
+
+.address-grad {
+  font-style: normal;
+  color: #999;
+}
+
+.footer-grad__address-grad {
+  font-style: normal;
+  color: #999;
+}
+
+.footer-grad__btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 36px;
+  max-width: max-content;
+  background-color: rgba(22, 21, 21, 0.07);
+  border-radius: 1px;
+  color: #050505;
+  line-height: 0;
+  margin: 0.6em 0;
+  font-size: 1rem;
+  padding: 0 1.3em;
+}
+
+.ul-grad {
+  list-style: none;
+  padding-left: 0;
+}
+
+.li_grad { list-style: none;
+  line-height: 2em;
+}
+
+.footer-grad__ul-grad{
+  list-style: none;
+  padding-left: 0;
+}
+
+.footer-grad__li-grad {
+  line-height: 2em;
+}
+
+.a-grad{ color: #999;
+  text-decoration: none;}
+
+.footer-grad__a-grad {
+  text-decoration: none;
+}
+
+.footer-grad__nav-grad {
+  display: flex;
+    flex-flow: row wrap;
+}
+
+.footer-grad__nav-grad > * {
+  flex: 1 50%;
+  margin-right: 1.25em;
+}
+
+.nav-grad__ul-grad a-grad {
+  color: #999;
+}
+
+.nav-grad__ul-grad--extra {
+  column-count: 2;
+  column-gap: 1.25em;
+}
+
+.legal {
+  display: flex;
+  flex-wrap: wrap;
+  color: #999;
+}
+  
+.legal__links {
+  display: flex;
+  align-items: center;
+}
+
+.heart {
+  color: #2f2f2f;
+}
+
+@media screen and (min-width: 24.375em) {
+  .legal .legal__links {
+    margin-left: auto;
+  }
+}
+
+@media screen and (min-width: 40.375em) {
+  .footer-grad__nav-grad > * {
+    flex: 1;
+  }
+  
+  .nav-grad__item--extra {
+    flex-grow: 2;
+  }
+  
+  .footer-grad__addr {
+    flex: 1 0px;
+  }
+  
+  .footer-grad__nav-grad {
+    flex: 2 0px;
+  }
+}
